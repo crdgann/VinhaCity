@@ -1,0 +1,27 @@
+body{
+    background-image: url('vinho.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: left;
+}
+
+.texto{
+    text-align: center;
+    text-indent: 25px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+.texto2{
+    text-align: justify;
+    text-align: center;
+}
+
+.botaoV{
+    text-align: center;
+    
+}
