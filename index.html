@@ -1,42 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="estilo.css">
-  <title>Home</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
 </head>
+
+
+
+
 <body>
+    <header class="titulo">
+        <h1 class="titulo">KGames Periféricos</h1>
+        <a href="index.html" class="menu">Home</a>
+        <a href="sobre.html" class="menu">Sobre</a>
+        <a href="contato.html" class="menu">Contato</a>
+        <a href="produtos.html" class="menu">Produtos</a>
+        
+    </header>
+    <div class="slider">
 
-   <div class="container">
+        <div class="slides">
 
-    <nav id="menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="contato.html">Contato</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-        </ul>
+            
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
 
-    </nav>
+            <div class="slide first">
+                <img src="https://a-static.mlcdn.com.br/1500x1500/mouse-gamer-sem-fio-logitech-g-pro-wireless-lightspeed-rgb-lightsync-ambidestro-6-botoes-sensor/onlineshopping/ppj060/c644fe02febaa75ed38ff5fc75a1dd95.jpeg" alt="Imagem 1"/>
+            </div>
+            <div class="slide">
+                <img src="https://a-static.mlcdn.com.br/1500x1500/teclado-mecanico-gamer-redragon-kumara-rgb-switch-outemu-red-abnt2-k552rg/onlineshopping/pog046/0ffb063ef563a55f34daec1e2fac54e1.jpeg" alt="Imagem 2"/>
+            </div>
+            <div class="slide">
+                <img src="https://cdn.awsli.com.br/600x1000/2557/2557636/produto/2024184911e25149fd9.jpg" alt="Imagem 3"/>
+            </div>
+            <div class="slide">
+                <img src="https://static.onlineshopping.com.br/produto/XMZ057_01_XMZ057_01.jpg" alt="Imagem 4"/>
+            </div>
+            <div class="slide">
+                <img src="https://static.onlineshopping.com.br/produto/QA2010_02_QA2010_02.jpg" alt="Imagem 5"/>
+            </div>
+            <div class="slide">
+                <img src="https://static.onlineshopping.com.br/produto/multifotos/PPJ087_03_PPJ087_03.jpg" alt="Imagem 6"/>
+            </div>
 
-    <h1>VINHACITY</h1>
+            <div class="navegation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+            </div>
 
-    <h1>SEJA BEM VINDO </h1>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+        </div>
 
 
-   </div>
-
-   <footer>@2023-todos os direitos reservados</footer>
-
-   <script>
-    alert("Seja bem Vindo!")
-</script>
+    </div>
+    <div class="botoes">
+        <button onclick="changeColor('white')">Claro</button>
+        <button onclick="changeColor('grey')">Escuro</button>
+    </div>
 
 
-
-
-
+    <div class="conteudo-principal">
+        <div class="texto-principal">
+            <h1>KGames Periféricos</h1>
+            <p>A nossa empresa é especializada na venda de periféricos para computadores. 
+               Desde os clássicos teclados e mouses, até os mais modernos acessórios de jogos,
+               nossa empresa oferece uma grande variedade de produtos de alta qualidade e 
+               ótimos preços.
+            </p>
+        </div>    
+    <script>
+        alert("Seja Bem-Vindo")
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
+
