@@ -4,55 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Sobre</title>
-
-    <link rel="stylesheet" href="sobre.css">
-    <style>
-
-         
-    </style>
-    
-
 </head>
 <body>
-    <font color="Silver"> 
-        
-
-    <h1 class="titulo">Sobre Nós</h1>
-
-    <h2>
-        <p class="texto"> 
-            Olá, clientes, da VinhaCity, nós estamos muito gratos por ter você aqui, com isso fique com um pouco da nossa história. <br>
-            
-             <p class="texto2"> A VinhaCity está presente no mercado há mais de 50 anos, e estamos comprometidos em produzir vinhos de alta qualidade<br>
-             temos muito orgulho em oferecer aos nossos clientes uma experiência excepcional de degustação de vinho. <br>
-             Nosso principal diferencial é o nosso processo de produção. Desde a seleção das uvas até o engarrafamento, cada etapa é <br>
-             cuidadosamente monitorada para garantir que apenas os melhores vinhos cheguem à sua taça nós usamos técnicas de  <br>
-             vinificação tradicionais combinadas com tecnologia moderna, resultando em vinhos únicos e saborosos.<br>
-             Outra qualidade que diferencia nossa empresa é a nossa equipe de enólogos e sommeliers altamente capacitados, eles são <br>
-             apaixonados pelo mundo do vinho e estão sempre se atualizando sobre as últimas tendências e novidades da indústria. Essa<br> 
-             paixão e conhecimento refletem-se em nossos vinhos excepcionais.<br>
-             Falando em vinhos, temos uma grande variedade de vinhos tintos, brancos e rosés para atender a todos os gostos e ocasiões,<br>
-             desde vinhos leves e frutados até vinhos encorpados e complexos, temos algo para todos.<br>
-             Além disso, temos vinhos de safras especiais e reservas limitadas para aqueles momentos especiais. Embora nossos vinhos<br>
-             sejam de alta qualidade, nosso objetivo é torná-los acessíveis a todos.<br>
-             Por isso, temos uma variedade de preços para se adequar a diferentes orçamentos. Nós acreditamos que todo mundo deve<br> 
-             ser capaz de desfrutar de um bom vinho sem gastar uma fortuna.<br>
-             Enfim, podemos afirmar com confiança que estamos empenhados em produzir vinhos de alta qualidade com um <br>
-             excelente valor para o dinheiro. Estamos ansiosos para compartilhar nossa paixão pelo vinho com você e esperamos<br>
-             que você experimente nossos vinhos excepcionais em breve.
-            
-            
-        
-        </p>
-    </text>
-    </font> 
-    </h2>
-
-    <form class="botaoV"> 
-        <input type="button" value="Voltar" onClick="history.go(-1)">  
-        <input type="button" value="Atualizar" onClick="history.go(0)"> 
-    </form>
-
+    <header>
+        <h1 class="titulo_sobre">KGames Periféricos</h1>
+        <a href="index.html" class="menu">Home</a>
+        <a href="sobre.html" class="menu">Sobre</a>
+        <a href="contato.html" class="menu">Contato</a>
+        <a href="produtos.html" class="menu">Produtos</a>
+    </header>
+    <div class="conteudo-sobre">
+        <div class="dois-textos">
+            <div class="texto-sobre1">
+                <h1>Nós</h1>
+                <p>
+                    Trabalhamos com marcas reconhecidas no mercado, garantindo aos nossos clientes produtos duráveis e confiáveis. Além disso, nossa equipe está sempre atualizada sobre as últimas tendências do mercado, permitindo-nos oferecer aos nossos clientes as melhores opções disponíveis.
+                </p>
+            </div>
+            <div class="texto-sobre2">
+                <h1>Diferenciais</h1>
+                <p>
+                    Nossa loja oferece uma ampla variedade de produtos, desde os mais básicos até os mais avançados, atendendo às necessidades de todos os tipos de usuários de computadores. Nós temos uma equipe de suporte técnico especializada que está pronta para ajudar os clientes em qualquer questão relacionada aos produtos.
+                </p>
+            </div>
+        </div>
+    <div class="dois-textos">
+        <div class="texto-sobre3">
+            <h1>Missão</h1>
+            <p>
+                A nossa missão é oferecer aos nossos clientes a melhor experiência de compra possível, com preços justos e produtos de qualidade. Estamos sempre buscando inovar e melhorar, a fim de atender às necessidades em constante evolução do mercado de periféricos.
+            </p>
+        </div>
+        <div class="texto-sobre4">
+            <h1>Curiosidades</h1>
+            <p>
+                1-As marcas mais populares estão entre Razer, Logitech, HyperX, Corsair, SteelSeries e Asus. <br>2-Dependendo da qualidade do seu mouse ele poderá durar entre 5 milhões a 20 milhões de clicks. <br>3-Para muitos jogadores se o seu periferico tiver RGB(Led) você terá um desempenho melhor.
+            </p>
+        </div>
+    </div>
+    
+</div>
+<div class="botoes">
+    <button onclick="changeColor('Silver')">Claro</button>
+    <button onclick="changeColor('DimGray')">Escuro</button>
+</div>
+    
+    <footer>@-Todos os direitos reservados</footer>
+    <script src="index.js"></script>
 </body>
 </html>
